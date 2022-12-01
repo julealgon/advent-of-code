@@ -2,7 +2,7 @@
   "profiles": {
     "julealgon.AdventOfCode._2022._1-CalorieCounting": {
       "commandName": "Project",
-      "commandLineArgs": "< input.txt"
+      "commandLineArgs": "< input.txt",
     }
   }
 }
