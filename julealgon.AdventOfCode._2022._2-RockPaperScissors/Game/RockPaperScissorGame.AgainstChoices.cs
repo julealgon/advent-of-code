@@ -17,5 +17,13 @@ public sealed partial class RockPaperScissorGame
             Move = move,
             Outcome = comparer.Compare(move, opposingMove),
         };
+
+        public GameResult PlayFor(Outcome outcome) => new()
+        {
+            Move = Move
+                .Values
+                .First(m => comparer.Compare(m, opposingMove).Equals(outcome)),
+            Outcome = outcome,
+        };
     }
 }
