@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "julealgon.AdventOfCode._202
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "julealgon.AdventOfCode.Extensions", "julealgon.AdventOfCode.Extensions\julealgon.AdventOfCode.Extensions.csproj", "{EEB51D6F-7D47-49C7-8C7F-C7A01069CC49}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "julealgon.AdventOfCode._2022._2-RockPaperScissors", "julealgon.AdventOfCode._2022._2-RockPaperScissors\julealgon.AdventOfCode._2022._2-RockPaperScissors.csproj", "{E80435B0-921E-4287-99A6-CD40969BF43B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +25,17 @@ Global
 		{EEB51D6F-7D47-49C7-8C7F-C7A01069CC49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEB51D6F-7D47-49C7-8C7F-C7A01069CC49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEB51D6F-7D47-49C7-8C7F-C7A01069CC49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E80435B0-921E-4287-99A6-CD40969BF43B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E80435B0-921E-4287-99A6-CD40969BF43B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E80435B0-921E-4287-99A6-CD40969BF43B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E80435B0-921E-4287-99A6-CD40969BF43B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{79E13151-F53B-4116-9D22-04FD793A5CBF} = {C1A3AEB0-E63C-43B5-9972-B2D3C889CD9D}
+		{E80435B0-921E-4287-99A6-CD40969BF43B} = {C1A3AEB0-E63C-43B5-9972-B2D3C889CD9D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FF5D4713-A7CE-488D-8093-474E4035A98F}
