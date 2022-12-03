@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "julealgon.AdventOfCode._2022._3-RucksackReorganization": {
+      "commandName": "Project",
+      "commandLineArgs": "< input.txt"
+    }
+  }
+}
