@@ -10,6 +10,8 @@ internal sealed record Rucksack : IParsable<Rucksack>
 
     public ICollection<Item> SecondCompartment { get; } = new List<Item>();
 
+    public IEnumerable<Item> AllItems => FirstCompartment.Concat(SecondCompartment);
+
     public static Rucksack Parse(string s, IFormatProvider? provider)
     {
         var items = ParseItems().Batch(s.Length / 2);
