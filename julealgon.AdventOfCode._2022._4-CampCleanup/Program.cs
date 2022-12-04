@@ -4,7 +4,8 @@ using CsvHelper.Configuration;
 using julealgon.AdventOfCode._2022._4_CampCleanup;
 using static System.Globalization.CultureInfo;
 
-Part1();
+//Part1();
+Part2();
 
 void Part1()
 {
@@ -21,4 +22,14 @@ void Part1()
                 (range == i.FirstElfRange ||
                 range == i.SecondElfRange);
         });
+}
+
+void Part2()
+{
+    var configuration = new CsvConfiguration(InvariantCulture) { HasHeaderRecord = false };
+    using var reader = new CsvReader(Console.In, configuration);
+    reader.Context.RegisterClassMap<ElfPairInput.ClassMap>();
+    var overlaps = reader
+        .GetRecords<ElfPairInput>()
+        .Count(i => i.FirstElfRange.Intersection(i.SecondElfRange) is not null);
 }
