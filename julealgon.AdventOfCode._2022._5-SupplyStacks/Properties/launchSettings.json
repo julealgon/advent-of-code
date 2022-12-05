@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "julealgon.AdventOfCode._2022._5-SupplyStacks": {
+      "commandName": "Project",
+      "commandLineArgs": "< input.txt"
+    }
+  }
+}

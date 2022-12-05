@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -8,7 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+	<PackageReference Include="morelinq" Version="3.3.2" />
     <PackageReference Include="CsvHelper" Version="30.0.1" />
+    <PackageReference Include="SuccincT" Version="4.0.0" />
   </ItemGroup>
 
 </Project>
