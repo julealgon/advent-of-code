@@ -26,4 +26,13 @@ public static class EnumerableExtensions
 
         return sequence.Choose(e => (T.TryParse(e, formatProvider, out T? result), result))!;
     }
+
+    public static bool AreUniqueBy<T, TProperty>(this IEnumerable<T> sequence, Func<T, TProperty> selector)
+    {
+        ArgumentNullException.ThrowIfNull(sequence);
+
+        var checkerSet = new HashSet<TProperty>();
+        
+        return sequence.All(e => checkerSet.Add(selector(e)));
+    }
 }

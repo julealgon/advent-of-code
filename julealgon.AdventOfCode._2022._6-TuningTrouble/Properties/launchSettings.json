@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "julealgon.AdventOfCode._2022._6-TuningTrouble": {
+      "commandName": "Project",
+      "commandLineArgs": "< input.txt"
+    }
+  }
+}
