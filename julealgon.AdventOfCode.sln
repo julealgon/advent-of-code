@@ -5,19 +5,21 @@ VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2022", "2022", "{C1A3AEB0-E63C-43B5-9972-B2D3C889CD9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "julealgon.AdventOfCode._2022._1-CalorieCounting", "2022\julealgon.AdventOfCode._2022._1-CalorieCounting\julealgon.AdventOfCode._2022._1-CalorieCounting.csproj", "{79E13151-F53B-4116-9D22-04FD793A5CBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "julealgon.AdventOfCode._2022._1-CalorieCounting", "2022\julealgon.AdventOfCode._2022._1-CalorieCounting\julealgon.AdventOfCode._2022._1-CalorieCounting.csproj", "{79E13151-F53B-4116-9D22-04FD793A5CBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "julealgon.AdventOfCode.Extensions", "julealgon.AdventOfCode.Extensions\julealgon.AdventOfCode.Extensions.csproj", "{EEB51D6F-7D47-49C7-8C7F-C7A01069CC49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "julealgon.AdventOfCode.Extensions", "julealgon.AdventOfCode.Extensions\julealgon.AdventOfCode.Extensions.csproj", "{EEB51D6F-7D47-49C7-8C7F-C7A01069CC49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "julealgon.AdventOfCode._2022._2-RockPaperScissors", "julealgon.AdventOfCode._2022._2-RockPaperScissors\julealgon.AdventOfCode._2022._2-RockPaperScissors.csproj", "{E80435B0-921E-4287-99A6-CD40969BF43B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "julealgon.AdventOfCode._2022._2-RockPaperScissors", "julealgon.AdventOfCode._2022._2-RockPaperScissors\julealgon.AdventOfCode._2022._2-RockPaperScissors.csproj", "{E80435B0-921E-4287-99A6-CD40969BF43B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "julealgon.AdventOfCode._2022._3-RucksackReorganization", "julealgon.AdventOfCode._2022._3-RucksackReorganization\julealgon.AdventOfCode._2022._3-RucksackReorganization.csproj", "{E3C7B62C-A802-4222-A5AB-09ACE9BA0F85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "julealgon.AdventOfCode._2022._3-RucksackReorganization", "julealgon.AdventOfCode._2022._3-RucksackReorganization\julealgon.AdventOfCode._2022._3-RucksackReorganization.csproj", "{E3C7B62C-A802-4222-A5AB-09ACE9BA0F85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "julealgon.AdventOfCode._2022._4-CampCleanup", "julealgon.AdventOfCode._2022._4-CampCleanup\julealgon.AdventOfCode._2022._4-CampCleanup.csproj", "{380C9DD1-BFA6-42AD-A102-5A902ECD54DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "julealgon.AdventOfCode._2022._4-CampCleanup", "julealgon.AdventOfCode._2022._4-CampCleanup\julealgon.AdventOfCode._2022._4-CampCleanup.csproj", "{380C9DD1-BFA6-42AD-A102-5A902ECD54DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "julealgon.AdventOfCode._2022._5-SupplyStacks", "julealgon.AdventOfCode._2022._5-SupplyStacks\julealgon.AdventOfCode._2022._5-SupplyStacks.csproj", "{E062039D-AFB6-4CD3-A1C9-E1EE40496BF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "julealgon.AdventOfCode._2022._5-SupplyStacks", "julealgon.AdventOfCode._2022._5-SupplyStacks\julealgon.AdventOfCode._2022._5-SupplyStacks.csproj", "{E062039D-AFB6-4CD3-A1C9-E1EE40496BF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "julealgon.AdventOfCode._2022._6-TuningTrouble", "julealgon.AdventOfCode._2022._6-TuningTrouble\julealgon.AdventOfCode._2022._6-TuningTrouble.csproj", "{F525D024-A4AF-41A1-9BDE-B91719E80ACB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "julealgon.AdventOfCode._2022._6-TuningTrouble", "julealgon.AdventOfCode._2022._6-TuningTrouble\julealgon.AdventOfCode._2022._6-TuningTrouble.csproj", "{F525D024-A4AF-41A1-9BDE-B91719E80ACB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "julealgon.AdventOfCode._2022._7-NoSpaceLeftOnDevice", "julealgon.AdventOfCode._2022._7-NoSpaceLeftOnDevice\julealgon.AdventOfCode._2022._7-NoSpaceLeftOnDevice.csproj", "{53D97E3B-B3F3-487F-94F1-98439EB3296D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +55,10 @@ Global
 		{F525D024-A4AF-41A1-9BDE-B91719E80ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F525D024-A4AF-41A1-9BDE-B91719E80ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F525D024-A4AF-41A1-9BDE-B91719E80ACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53D97E3B-B3F3-487F-94F1-98439EB3296D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53D97E3B-B3F3-487F-94F1-98439EB3296D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53D97E3B-B3F3-487F-94F1-98439EB3296D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53D97E3B-B3F3-487F-94F1-98439EB3296D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +70,7 @@ Global
 		{380C9DD1-BFA6-42AD-A102-5A902ECD54DC} = {C1A3AEB0-E63C-43B5-9972-B2D3C889CD9D}
 		{E062039D-AFB6-4CD3-A1C9-E1EE40496BF0} = {C1A3AEB0-E63C-43B5-9972-B2D3C889CD9D}
 		{F525D024-A4AF-41A1-9BDE-B91719E80ACB} = {C1A3AEB0-E63C-43B5-9972-B2D3C889CD9D}
+		{53D97E3B-B3F3-487F-94F1-98439EB3296D} = {C1A3AEB0-E63C-43B5-9972-B2D3C889CD9D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FF5D4713-A7CE-488D-8093-474E4035A98F}
