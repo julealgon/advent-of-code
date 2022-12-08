@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "julealgon.AdventOfCode._2022._8-TreetopTreeHouse": {
+      "commandName": "Project",
+      "commandLineArgs": "< input.txt"
+    }
+  }
+}
