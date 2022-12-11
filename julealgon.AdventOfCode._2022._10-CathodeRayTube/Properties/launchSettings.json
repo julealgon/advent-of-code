@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "julealgon.AdventOfCode._2022._10-CathodeRayTube": {
+      "commandName": "Project",
+      "commandLineArgs": "< input.txt"
+    }
+  }
+}
